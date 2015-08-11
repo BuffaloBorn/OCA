@@ -7,10 +7,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Capter_1_JavaBuildingBlocks</artifactId>
+    <artifactId>Chapter_1_JavaBuildingBlocks</artifactId>
     <packaging>jar</packaging>
 
-    <name>Capter_1_JavaBuildingBlocks</name>
+    <name>Chapter_1_JavaBuildingBlocks</name>
     <url>http://maven.apache.org</url>
 
     <properties>
