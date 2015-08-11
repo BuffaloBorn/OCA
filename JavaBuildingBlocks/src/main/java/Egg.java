@@ -5,6 +5,8 @@ public class Egg {
         Egg egg = new Egg();
         System.out.println(egg.number);
         long l = 0xFF_FF_FF_FF_FL;
+        double d = 1.3;
+        System.out.println(++d);
     }
 
     private int number = 3;//First, initialize fields and initialization blocks
