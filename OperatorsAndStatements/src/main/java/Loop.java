@@ -87,6 +87,25 @@ public class Loop {
             System.out.println("end of loop...");
         }
         System.out.println("end of section.");
+
+        int x1 = 50, x2 = 75;
+        boolean b = x1 >= x2;
+        if (b = true)
+            System.out.println("Success");
+        else
+            System.out.println("Failure");
+
+        int count = 0;
+        ROW_LOOP:
+        for (int row = 1; row <= 3; row++)
+            for (int col = 1; col <= 2; col++) {
+                if (row * col % 2 == 0) continue ROW_LOOP;
+                count++;
+            }
+
+        System.out.println(count);
+
+
     }
 
 }

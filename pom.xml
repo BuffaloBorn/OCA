@@ -8,6 +8,7 @@
     <modules>
         <module>JavaBuildingBlocks</module>
         <module>OperatorsAndStatements</module>
+        <module>CoreJavaApi</module>
     </modules>
     <packaging>pom</packaging>
 
