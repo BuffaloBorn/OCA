@@ -95,7 +95,16 @@ public class StringTest {
         System.out.println("-----------------------------------------");
 
 
+//        boolean y = sb == s;
+        byte b = 8;
+        boolean y = 7 == b;
 
+        A a = A.foo().foo();
+    }
+}
 
+class A {
+    public static A foo() {
+        return new A();
     }
 }
