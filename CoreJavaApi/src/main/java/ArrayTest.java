@@ -38,8 +38,5 @@ public class ArrayTest {
         Byte aByte2 = Byte.valueOf("7");
         byte b = Byte.valueOf("10");
 
-
-
-
     }
 }
