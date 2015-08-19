@@ -10,6 +10,7 @@
         <module>OperatorsAndStatements</module>
         <module>CoreJavaApi</module>
         <module>Ch4_MethodsAndEncapsulation</module>
+        <module>Ch5_ClassDesign</module>
     </modules>
     <packaging>pom</packaging>
 
