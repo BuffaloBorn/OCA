@@ -8,6 +8,11 @@
 //        4.  If the method returns a value, it must be the same or a subclass of the method in the parent class, known as covariant return types.
 //        5.  The method defined in the child class must be marked as static if it is marked as static in the parent class (method hiding). Likewise, the method must not be marked as static in the child class if it is not marked as static in the parent class (method o v e rri din g ) .
 public class HidingMethods {
+    public static void main(String[] args) {
+        Panda panda = new Panda();
+        panda.sneeze();
+        panda.hibernate();
+    }
 }
 
 class Bear {
@@ -21,5 +26,16 @@ class Bear {
 }
 
 class Panda extends Bear {
-    pu
+    public static void sneeze() {
+        System.out.println("Panda Sneeze");
+    }
+
+    @Override
+    public void hibernate() {
+        System.out.println("Panda hibernate");
+    }
+
+    //    public void sneeze() {System.out.println("Panda sneeze");} //DON'T COMPILE it is have to be HIDING
+//
+//    public static void hibernate() { System.out.println("Panda hibernate"); } //DON'T COMPILE it is have to be OVERRIDING
 }
