@@ -1,5 +1,3 @@
-package package2;
-
 /**
  * Created by vitaly on 20.08.15.
  */
@@ -30,7 +28,7 @@ abstract class Animal {
     protected int age;
 
     public void eat() {
-        System.out.println("package2.AbstractClasses.Animal eating");
+        System.out.println("AbstractClasses.Animal eating");
     }
 
     abstract String getName();

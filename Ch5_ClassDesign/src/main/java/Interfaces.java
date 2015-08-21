@@ -42,6 +42,9 @@ abstract interface CanBorrow {
     public static final int MINIMUM_DEPTH = 1;
 
     public abstract int getMaximunDepth();
+//    static int getMaximunDepth() {
+//        return 10;
+//    }
 
     public abstract Serializable getSpeed();
 }
