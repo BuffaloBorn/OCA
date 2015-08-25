@@ -1,0 +1,4 @@
+On the OCA exam, a try statement must have catch and/or finally. Having both is fine. Having neither is a problem.
+The clauses must be in the right order try-catch-finally
+A rule exists for the order of the catch blocks. Java looks at them in the order they appear. If it is impossible for one of the catch blocks to be executed, a compiler error about unreachable code occurs.
+Если метод не может бросить исключение его нельзя поместить в блок try-catch потому что он будет излишним

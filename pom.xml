@@ -11,6 +11,7 @@
         <module>CoreJavaApi</module>
         <module>Ch4_MethodsAndEncapsulation</module>
         <module>Ch5_ClassDesign</module>
+        <module>Ch6_Exceptions</module>
     </modules>
     <packaging>pom</packaging>
 
