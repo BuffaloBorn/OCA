@@ -1,4 +1,5 @@
 import java.io.Serializable;
+import java.time.format.DateTimeFormatter;
 
 /**
  * Created by vitaly on 20.08.15.
@@ -35,6 +36,7 @@ public class Interfaces {
         System.out.println(canBorrow.MINIMUM_DEPTH);
         System.out.println(canBorrow2.MINIMUM_DEPTH);
         System.out.println(canBorrow3.MINIMUM_DEPTH);
+//        Integer.parseInt()
     }
 }
 
