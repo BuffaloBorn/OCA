@@ -18,7 +18,7 @@ public class ExcessiveExceptionHandeling extends Exception {
     }
 
     public static void foo() {
-        int хуй = 1;
+        int g = 1;
         char f = '4';
         LABEL: for (int i = 0; i < 8; i++) {
             continue LABEL;
