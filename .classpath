@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Ch4_MethodsAndEncapsulation/src/main/java"/>
+	<classpathentry kind="src" path="Ch5_ClassDesign/src/main/java"/>
+	<classpathentry kind="src" path="Ch5_ClassDesign/src/test/java"/>
+	<classpathentry kind="src" path="Ch6_Exceptions/src/main/java"/>
+	<classpathentry kind="src" path="CoreJavaApi/src/main/java"/>
+	<classpathentry kind="src" path="CoreJavaApi/src/test/java"/>
+	<classpathentry kind="src" path="JavaBuildingBlocks/src/main/java"/>
+	<classpathentry kind="src" path="JavaBuildingBlocks/src/test/java"/>
+	<classpathentry kind="src" path="OperatorsAndStatements/src/main/java"/>
+	<classpathentry kind="src" path="OperatorsAndStatements/src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
