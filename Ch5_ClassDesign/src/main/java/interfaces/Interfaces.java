@@ -1,3 +1,7 @@
+package interfaces;
+/*
+ * Moved by BuffaloBorn on 11/15/16
+ * */
 import java.io.Serializable;
 import java.time.format.DateTimeFormatter;
 
@@ -11,7 +15,7 @@ import java.time.format.DateTimeFormatter;
 //        4.      All top-level interfaces are assumed to have public or default access, and they must include
 //                the abstract modifier in their definition. Therefore, marking an interface as private, protected,
 //                or final will trigger a compiler error, since this is incompatible with these assumptions.
-//        5.      All nondefault methods in an interface are assumed to have the modifiers abstractand public in their definition.
+//        5.      All non-default methods in an interface are assumed to have the modifiers abstract and public in their definition.
 //                Therefore, marking a method as private, protected, or final will trigger compiler errors as these are
 //                incompatible with the abstract and public keywords
 
