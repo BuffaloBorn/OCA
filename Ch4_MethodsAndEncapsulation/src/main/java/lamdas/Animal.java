@@ -1,5 +1,7 @@
 package lamdas;
-
+/*
+ * Updated by BuffaloBorn on 11/18/2016
+ * */
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
@@ -29,6 +31,9 @@ public class Animal {
     public boolean isCanSwim() {
         return canSwim;
     }
+    
+    public boolean canHop() { return canHop; }
+    public boolean canSwim() { return canSwim; }
 
     public static void main(String[] args) {
         List<Animal> animals = new ArrayList<Animal>();
