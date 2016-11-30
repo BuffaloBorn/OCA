@@ -4,17 +4,17 @@
 public class HidingVariables {
     public static void main(String[] args) {
         Mouse mouse = new Mouse();
-        mouse.getRodentDetails();
-        mouse.getMouseDetails();
+        mouse.getRodentDetails();				//[Parent tail lentgth=4.0]
+        mouse.getMouseDetails();                //[tail=8, parentTail=4.0] 
         Rodent rodent = mouse;
-        System.out.println(rodent.tailLength);
-        System.out.println(mouse.tailLength);
-        System.out.println(rodent.name);
-        System.out.println(mouse.name);
-        System.out.println(rodent);
-        System.out.println(mouse);
-    }
-}
+        System.out.println(rodent.tailLength);  //4.0              
+        System.out.println(mouse.tailLength);   //8                
+        System.out.println(rodent.name);        //Rodent           
+        System.out.println(mouse.name);         //Mouse            
+        System.out.println(rodent);             //Mouse tailLength8
+        System.out.println(mouse);              //Mouse tailLength8
+    }                                            
+}                                                
 
 class Rodent {
     protected float tailLength = 4;
