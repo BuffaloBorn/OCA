@@ -20,10 +20,25 @@ public class ExceptionHandeling {
 
 
 class AnimalsOutForAWalk extends RuntimeException {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8016246380987393560L;
 }
 
 class ExhibitClosed extends RuntimeException {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6066878022293509404L;
 }
 
 class ExhibitClosedForLunch extends ExhibitClosed {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4604554296074088598L;
 }

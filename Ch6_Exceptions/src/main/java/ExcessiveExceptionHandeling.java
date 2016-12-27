@@ -6,6 +6,11 @@ import java.util.Locale;
  * Created by Vitaly on 22.08.2015.
  */
 public class ExcessiveExceptionHandeling extends Exception {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -3888846598239246110L;
+
     public static void main(String[] args) {
         foo();
 //        try {
