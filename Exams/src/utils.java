@@ -2,7 +2,6 @@ import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.Font;
-import java.awt.GraphicsEnvironment;
 
 import javax.swing.Icon;
 import javax.swing.JDialog;
@@ -67,6 +66,7 @@ public class utils{
 
 	}
 
+	@SuppressWarnings("unused")
 	private static Object showInputDialog(Component parentComponent,
 	        Object message, String title, int messageType, Icon icon,
 	        Object[] selectionValues, Object initialSelectionValue) {
