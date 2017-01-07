@@ -1,6 +1,7 @@
 
 public class PQOnArrayInitializer {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		//String[] gradesA; gradesA = {"B", "C","F", "A","D"};
 		
