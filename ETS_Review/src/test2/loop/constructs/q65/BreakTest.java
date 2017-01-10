@@ -1,4 +1,4 @@
-package test2.loop.contructs.q65;
+package test2.loop.constructs.q65;
 
 
 //What will the following code print?

@@ -1,4 +1,4 @@
-package test2.loop.contructs.q44;
+package test2.loop.constructs.q44;
 
 //What will the following code print?
 public class TestClassB{

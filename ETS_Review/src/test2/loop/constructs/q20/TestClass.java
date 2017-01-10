@@ -1,4 +1,4 @@
-package test2.loop.contructs.q20;
+package test2.loop.constructs.q20;
 
 public class TestClass {
 
@@ -8,9 +8,9 @@ public class TestClass {
 		for (int i = 0; i <=3; i++) {
 			k++;
 			if(i == 2){
-				//i = 4;     //-> 3,3
+				i = 4;     //-> 3,3
 				//i=m++;     //-> 4,5
-				continue;  //-> 3,3
+				//continue;  //-> 3,3
 				//break;		 //-> 3,2
 			}
 			m++;

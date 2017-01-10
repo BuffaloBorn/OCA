@@ -1,4 +1,4 @@
-package test2.loop.constructs.q44;
+package test2.handling.exceptions.q58;
 
 //What will be the result of attempting to compile and run the following program?
 class TestClass{
@@ -22,3 +22,13 @@ class TestClass{
       }
    }
 }
+
+/*
+ * You can apply a label to any code block or a block level statement (such as a for statement) 
+ * but not to declarations. For example: loopX : int i = 10;
+ * 
+ * A break without a label breaks the current loop (i.e. no iterations any more) and a break 
+ * with a label tries to pass the control to the given label. 'Tries to' means that if the 
+ * break is in a try block and the try block has a finally clause associated with it then it 
+ * will be executed.
+ * */

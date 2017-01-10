@@ -26,3 +26,21 @@ public class ParseFloat{
 
 	
 }
+/*
+ * Remove line 3, 6 -> TRUE
+ * Remove line 5	-> FALSE
+ * Remove line 5, 6 -> TRUE
+ * Remove line 7	-> TRUE
+ * Remove line 3, 7	-> TRUE
+ *
+ * Basically, an unreachable statement causes a compilation error (There is one exception: 
+ * if(false) { ... } is valid.). As such, line 7 is unreachable because of the return 
+ * statement in finally. This is because finally is always executed and there it returns a 
+ * value, so there is no way line 7 can be executed!      
+ * 
+ * When you remove the lines suggested by the options, all the lines of code are executed 
+ * in one case or another. For example, in option 1, if you comment line 3 and 6, Line 7 
+ * will be executed if no exception is thrown in the try block.  We suggest you to try 
+ * working out other scenarios yourself in a similar manner.
+ * 
+ * */
