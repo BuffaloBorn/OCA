@@ -44,6 +44,10 @@ public class Animal {
         animals.add(new Animal("rabbit", true, false));
         animals.add(new Animal("turtle", false, true));
 
+        System.out.println("Can only hop....");
+        print(animals, a -> a.isCanHop());
+        System.out.println();
+        System.out.println("Can hop and swim....");
         print(animals, a -> a.isCanHop() && a.isCanSwim());
 
         Predicate<Animal> predicate = a -> a.isCanHop() && a.isCanSwim();
