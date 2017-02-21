@@ -22,7 +22,7 @@ public class C{
 	   
 	   //System.out.println(b.i); //will print 10.
 	   //System.out.println(b.i); //will print 20
-	   b.f();
+	   //b.f();
    }
 }
 
