@@ -27,5 +27,7 @@ public class q58 {
 	// Implicit narrowing occurs only for byte, char, short, and int. 
 	// Remember that it does not occur for long, float, or double. 
 	// So, this will not compile: int i = 129L;
+	
+	final short s3 = -128; byte b3 = s3; 
 
 }

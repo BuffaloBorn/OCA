@@ -9,8 +9,19 @@ public class TestClass {
 
         //al.add(111);
         System.out.println(al.indexOf(1.0));
+        /* indexOf's accepts Object as a parameter. Although 1.0 is not an object, 
+        it will be boxed into a Double object.
+        */
+        
+        
         System.out.println(al.contains("string"));
-        //Double d = al.get(al.length);
+        
+        /* Double d = al.get(al.length);
+         * ArrayList does not have a field named length. It does have a method named size() 
+         * though. So you can do: Double d = al.get(al.size()); It will compile but will 
+         * throw IndexOutOfBoundsException at run time in this case because al.size() will 
+         * return 0 and al.get(0) will try to get the first element in the list.
+         */
      }
 }
 
