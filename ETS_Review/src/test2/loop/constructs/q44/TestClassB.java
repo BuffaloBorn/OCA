@@ -13,9 +13,16 @@ public class TestClassB{
         
         public void looper(){
             int x = 0;
+            int counter =0; 
             while( (x = getX()) != 0 ){
+            	System.out.println("counter: " + counter);
+            	System.out.println("x: " + x);
                 for(int m = 10; m>=0; m--){
                     x = m;
+                }
+                counter++;
+                if (counter == 200) {
+                	System.exit(1);
                 }
             }
             
